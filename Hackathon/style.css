@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    height: auto;
+}
+/* .ib1{
+    width: 71%;
+} */
+.ib{
+    width: 100%;
+    height: 100%;
+}
+.ib1{
+    position: relative;  
+    box-shadow:1px 3px 10px 10px lightgrey;
+}
+.itext,.ipass,.ib1{border-radius: 5px;}
+.btnlog{width: 292px;}
+.h1{width:235px;}
+@media screen and (max-height:750px){
+    .ib2{
+        top: -11px;
+    }
+    .signuptop{
+        top:-38px
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 480px){
+.ib1{
+    width: 324px;
+    
+}
+
+}
+@media screen and (min-width: 480px){
+    .ib1{
+        width:330px;
+        
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .ib1{
+        left:-30px;
+    }
+    .ib2{
+        top: 35px;
+        
+    }
+    .signuptop{
+        top:35px;
+    }
+}
+
+.imgcontainer{
+  height:100px;
+  width: 100px;
+  margin-top: 20px; 
+  margin-left: 10px; 
+}
+
+#upload-image{
+  display: none;
+}
+
+
+
+.itext,.ipass{
+    width: 293px;
+    border:1px solid lightgray ;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    outline: none;
+    
+}
+.jpass:focus,.jtext:focus{
+    border-bottom-color:lightseagreen ;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.radius{
+    border: 2px solid red;
+}
+.err{
+    border-bottom-color: red;
+}
